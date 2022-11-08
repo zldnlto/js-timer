@@ -1,0 +1,45 @@
+/*reset , common styles */
+
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* color -없애고 그냥 갈수도 */
+
+:root {
+  --blue-color: #5180ff;
+  --dark-color: #354971;
+  --light-color: #a5b6ee;
+}
+
+.ir {
+  position: absolute;
+  clip-path: inset(50%);
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+/* reset */
+
+* {
+  box-sizing: border-box;
+}
+body,
+h1,
+h2 {
+  padding: 0;
+  margin: 0;
+}
+img {
+  display: block;
+}
+
+button {
+  all: unset;
+  cursor: pointer;
+}
